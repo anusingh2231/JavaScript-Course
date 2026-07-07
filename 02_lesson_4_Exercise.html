@@ -11,6 +11,10 @@
     .buy{
       background-color: orange;
     }
+    .design{
+      background-color: aquamarine;
+     
+    }
   </style>
 </head>
 <body>
@@ -47,6 +51,43 @@
     console.log('welcome!');
   </script>
 
-  <!---->
+  <!--Question 8: using html css ,try to copy the given design-->
+  <div class="design">
+  <p>
+    Adults PLain Cotton T-shirts
+  </p>
+  <p>
+    Price: $7.99
+  </p>
+  <button class="cart" >
+    Add to cart
+  </button>
+   <button class="buy">
+    Buy now
+  </button>
+  </div> <br> <br>
+  <!--Question 9: continueing from 8 ,add onclick="" attribute to the two button:
+  => when clicking "add to cart", create a popup with the text "added"
+  => whin clicking 'buy now display the messege "loading ',in the console, and then create a popup with the perchased-->
+  
+    <button class="cart" title="good job!" onclick="Added" >
+    Add to cart
+    </button>
+
+
+    <button class="buy" onclick=" alert('Purchased')">
+    Buy now
+    </button>
+    <script class="buy">
+      console.log('Loading...')
+     
+    </script>
+    
+
+
+
+
+
+
 </body>
 </html>
