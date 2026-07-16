@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booleans</title>
+</head>
+<body>
+  <script>
+    true
+    false 
+
+    console.log(3< 5);
+    console.log(3> 5);
+    console.log(typeof'true')
+    console.log(typeof true)
+    console.log(5 == '5.00') //True beacuse it will simply compare the value but the type is different to avoid any error in js use ==== (triple equal to) to check the type of the value
+     console.log(5 === '5.00') // this will give false because it c ompare the type of value entered i.e string and string cannot be equal to integer.
+
+
+
+
+    if(true) {
+      console.log('hello'); 
+    }
+
+    if(false) {
+      console.log('hello'); 
+    } else{
+      console.log('else');
+    }
+
+    if(30>=16) {
+      console.log('You can drive');
+    } else{
+      console.log('you cannot drive');
+    }
+// multiple condition can be applicable.
+     if(15>=16) {
+      console.log('You can drive');
+      console.log('congrats')
+    } else if(15>=14){
+      console.log('Almost there')
+    } 
+    else{
+      console.log('you cannot drive');
+    }
+// Combiningg if statements with variable   
+    const age = 15;
+    if(age>=16) {
+      console.log('You can drive');
+      console.log('congrats')
+    } else if(age>=14){
+      console.log('Almost there')
+    } 
+    else{
+      console.log('you cannot drive');
+    }
+//Logical operator
+//AND operator: both value must be true
+    console.log(true && true);
+    console.log(true && false);
+    console.log(0.2>= 0 && 0.2 < 1/3);
+
+//OR operator
+console.log(true || false);
+
+//NOT operator
+console.log(!true);
+
+
+
+
+
+  </script>
+    
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+ 
